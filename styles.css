@@ -1,6 +1,6 @@
 body {
     background-color: hsl(0, 0%, 8%);
-
+    font-family: Inter;
 }
 
 .main {
@@ -9,10 +9,30 @@ body {
     margin: auto;
     width: 25%;
     border-radius: 10px;
+    text-align: center;
+}
+
+img {
+    border-radius: 100px;
+    height: 25%;
+    width: 25%;
+}
+
+@font-face {
+    font-family:Inter;
+    src: url(https://fonts.google.com/specimen/Inter);
+  }
+
+h1 {
+font-size: 25px;
+font-family:Inter;
+
+
 }
 
 h2 {
    color: hsl(75, 94%, 57%);
+   font-size:25px;
 }
 
 ul {
@@ -24,4 +44,12 @@ li {
     list-style-type: none;
     padding: 10px;
     margin: 10px;
+    font-size: 14px;
+    font-size: Inter;
+}
+
+
+p {
+    color: hsl(0, 0%, 20%);
+    font-size: 14px;
 }
