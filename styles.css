@@ -1,21 +1,31 @@
-body {
+body, html {
+    height: 100%;
+    margin: 0;
+    display: grid;
+    place-items: center; /* Centers both vertically and horizontally */
     background-color: hsl(0, 0%, 8%);
     font-family: Inter;
-}
+  }
 
 .main {
     background-color: hsl(0, 0%, 12%) ;
     color: white;
     margin: auto;
-    width: 25%;
+    min-width: 25%;
+    min-height:500px;
     border-radius: 10px;
-    text-align: center;
+    display: flex;
+    justify-content: center; /* Centering items horizontally */
+    align-items: center;    /* Centering items vertically */
+    flex-direction: column;
+
 }
 
 img {
     border-radius: 100px;
     height: 25%;
     width: 25%;
+
 }
 
 @font-face {
@@ -35,17 +45,21 @@ h2 {
    font-size:25px;
 }
 
-ul {
-    text-align: center;
+
+.links-list {
+    border: 2px solid red;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
-li {
-    background-color: hsl(0, 0%, 20%) ;
-    list-style-type: none;
-    padding: 10px;
-    margin: 10px;
-    font-size: 14px;
-    font-size: Inter;
+
+
+button {
+    display:block;
+    width: 75%;
+
 }
 
 
