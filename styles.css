@@ -14,7 +14,7 @@ body, html {
     background-color: hsl(0, 0%, 12%) ;
     color: white;
     margin: auto;
-    min-width: 40%;
+    min-width: 400px;
     min-height:500px;
     border-radius: 10px;
     display: flex;
@@ -28,6 +28,7 @@ img {
     border-radius: 100px;
     height: 25%;
     width: 25%;
+    padding: 20px;
 }
 
 
@@ -76,4 +77,5 @@ a {
 text-decoration: none;
 font-size: 14px;
 font-family: Inter;
+font-weight: 600;
 }
