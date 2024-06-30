@@ -1,3 +1,9 @@
+
+@font-face {
+    font-family:Inter;
+    src: url(https://fonts.google.com/specimen/Inter);
+  }
+
 body, html {
     height: 100%;
     margin: 0;
@@ -28,26 +34,21 @@ img {
 
 }
 
-@font-face {
-    font-family:Inter;
-    src: url(https://fonts.google.com/specimen/Inter);
-  }
 
 h1 {
 font-size: 25px;
 font-family:Inter;
-
+margin: 0px;;
 
 }
 
 h2 {
    color: hsl(75, 94%, 57%);
-   font-size:25px;
+   font-size: 14px;
+   margin: 0px;
 }
 
-
 .links-list {
-    border: 2px solid red;
     width: 100%;
     display:flex;
     justify-content: center;
@@ -55,8 +56,6 @@ h2 {
     flex-direction: column;
 
 }
-
-
 
 li {
     display:block;
@@ -69,11 +68,16 @@ li {
     position:relative;
     right: 17px;
 
-
 }
-
 
 p {
     color: hsl(0, 0%, 20%);
     font-size: 14px;
+    font-family:Inter;
+}
+
+a {
+ color:white;
+ text-decoration: none;
+font-size: 14px;
 }
