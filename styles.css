@@ -4,10 +4,12 @@
 body, html {
     height: 100%;
     margin: 0;
-    display: grid;
-    place-items: center; /* Centers both vertically and horizontally */
+    display: flex;
+    justify-content: center; /* Centering items horizontally */
+    align-items: center;    /* Centering items vertically */
     background-color: hsl(0, 0%, 8%);
     font-family: Inter;
+    align-items: center;
   }
 
 .main {
@@ -66,6 +68,7 @@ a {
     font-weight: 600;
     display:block;
 
+    height: 20px;
     width: 75%;
     margin: 10px;
     padding: 10px;
@@ -73,12 +76,15 @@ a {
     text-align: center;
 
     position:relative;
-    right: 17px;
     text-decoration: none;
 
     border-radius: 10px;
     background-color: hsl(0, 0%, 20%);
 }
+
+a:hover {
+    background-color: hsl(75, 94%, 57%);
+  }
 
 
 .attribution {
