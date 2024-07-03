@@ -17,7 +17,7 @@ body, html {
     color: white;
     margin: auto;
     min-width: 400px;
-    min-height:500px;
+    min-height:650px;
     border-radius: 10px;
     display: flex;
     justify-content: center; /* Centering items horizontally */
@@ -25,6 +25,7 @@ body, html {
     flex-direction: column;
 
 }
+
 
 img {
     border-radius: 100px;
